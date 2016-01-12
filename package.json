@@ -1,0 +1,46 @@
+{
+  "name": "tiledcli",
+  "version": "0.1.1",
+  "latest": "0.1.1",
+  "description": "tiledcli",
+  "keywords": [
+    "tiledcli",
+    "tiled"
+  ],
+  "preferGlobal": true,
+  "config": {
+    "publishtest": false
+  },
+  "homepage": "http://www.heysdk.com/",
+  "author": {
+    "name": "zhs007",
+    "email": "sssxueren@gmail.com",
+    "url": "http://www.heysdk.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhs007/tiledcli"
+  },
+  "bugs": {
+    "url": "https://github.com/zhs007/tiledcli/issues",
+    "email": "sssxueren@gmail.com"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "main": "./bin/tiledcli.js",
+  "bin": {
+    "tiledcli": "./bin/tiledcli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/tiledcli.js"
+  },
+  "dependencies": {
+    "shelljs": "*",
+    "yargs": "*",
+    "glob": "*",
+    "async": "*"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
